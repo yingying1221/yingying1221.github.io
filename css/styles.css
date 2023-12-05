@@ -1,0 +1,99 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: "Lato", sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.w3-bar {
+    position: relative;
+    z-index: 4;
+}
+
+.w3-bar a, .w3-dropdown-content a {
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.w3-dropdown-hover:hover .w3-dropdown-content {
+    display: block;
+}
+
+/* Page content styling */
+.w3-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Band Section styling */
+#band {
+    background-color: #e9a5a5;
+    padding: 64px 0;
+}
+
+/* Tour Section styling */
+#tour {
+    color: #ffffff;
+    background-color: #111;
+    padding: 64px 0;
+}
+
+.w3-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.w3-ul li {
+    padding: 12px;
+    border-bottom: 1px solid #ebb7b7;
+}
+
+.w3-ul li:last-child {
+    border-bottom: none;
+}
+
+/* Contact Section styling */
+#contact {
+    padding: 64px 0;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f1f1f1;
+    padding: 32px 0;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 600px) {
+    .w3-bar .w3-dropdown-hover, .w3-bar .w3-dropdown-click {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .w3-bar .w3-dropdown-hover .w3-dropdown-content, .w3-bar .w3-dropdown-click .w3-dropdown-content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .w3-bar .w3-hide-small {
+        display: none;
+    }
+
+    .w3-bar-item.w3-button.w3-hide-medium.w3-hide-large {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
